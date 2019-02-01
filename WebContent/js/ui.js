@@ -107,7 +107,7 @@ class UI {
 
     // ES6
     static loadAllMovies(movies) {
-        movies.forEach((movie) => this.addMovieToUI(movie));
+        movies.forEach((movie) => UI.addMovieToUI(movie));
     }
 
 
